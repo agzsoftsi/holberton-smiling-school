@@ -10,8 +10,6 @@ Here the final result:
 ![](images/pic1.jpg)
 
 
-![](images/pic2.jpg)
-
 # Requirements
 
 - You have to use Bootstrap
