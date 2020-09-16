@@ -1,0 +1,113 @@
+/** Task 1 - Styles **/
+
+header {
+	background-image: url("images/pic_1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.logoHeader {
+	width: auto;
+	height: 30px;
+}
+
+* {
+	font-family: 'Source Sans Pro' !important;
+}
+
+@media (max-width: 1200px) {
+	header {
+		background-position: 50% 50%;
+	}
+
+	.users img {
+		width: 75% !important;
+		height: auto;
+	}
+}
+
+.nav-item {
+	font-size: 12px !important;
+}
+
+.btn {
+	background-color: #c271ff !important;
+	border-color: #c271ff !important;
+	font-size: 14px;
+}
+
+.btn:hover, .btn:active {
+	background-color: #c271ff !important;
+	border-color: #c271ff !important;
+	opacity: 0.9;
+}
+
+.users-section {
+	margin-top: 8rem;
+}
+
+.text-violet {
+	color: #c271ff;
+}
+
+.users {
+	margin: 5rem 0;
+}
+
+.users img {
+	width: 75% !important;
+	height: auto;
+}
+
+#nav-menu-btn {
+	background-color: white;
+	width: 13px;
+	height: 2px;
+	position: absolute;
+	top: 3rem;
+}
+
+#nav-menu-btn::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 2px;
+	background-color: white;
+	position: relative;
+	top: -0.5rem;
+}
+
+#nav-menu-btn::after {
+	content: "";
+	display: block;
+	width: 18px;
+	height: 2px;
+	background-color: white;
+	position: relative;
+	top: 0.4rem;
+}
+
+@media (max-width: 576px) {
+	header {
+		background-position: 45% 50%;
+	}
+
+	.hamburger {
+		max-height: 0px;
+		overflow: hidden;
+		transition: max-height 0.5s ease-in-out;
+	}
+	
+	#nav-toggle:checked ~ .hamburger {
+		max-height: 100vh;
+		overflow: hidden;
+	}
+
+	.display-1 {
+		font-size: 4rem;
+	}
+
+    .users .h5 {
+		font-size: 1.1rem;
+	}
+}
