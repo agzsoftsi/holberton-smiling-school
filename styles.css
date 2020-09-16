@@ -111,3 +111,9 @@ header {
 		font-size: 1.1rem;
 	}
 }
+
+/** Task 2 - Styles **/
+
+.bg-violet{
+	background-color: #c271ff !important;
+}
