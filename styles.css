@@ -13,6 +13,7 @@ header {
 
 * {
 	font-family: 'Source Sans Pro' !important;
+	
 }
 
 @media (max-width: 1200px) {
@@ -125,16 +126,27 @@ header {
 
 img.circle-thumb {
     width: 150px;
-    height: 150px;
+	height: 150px;
+
 }
-img.circle-thumb-small {
-    width: 50px;
-    height: 50px;
-}
+
 img.logo {
     height: 30px;
 }
 img.star {
     height: 15px;
     width: 15px;
+}
+
+img.circle-thumb-small {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/** Task 4 - Styles **/
+
+.bg-sectionfree {
+	background-color: #071629;
 }
