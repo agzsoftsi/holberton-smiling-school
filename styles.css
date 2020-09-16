@@ -117,3 +117,24 @@ header {
 .bg-violet{
 	background-color: #c271ff !important;
 }
+
+/** Task 3 - Styles **/
+.video-card {
+    width: 250px;
+}
+
+img.circle-thumb {
+    width: 150px;
+    height: 150px;
+}
+img.circle-thumb-small {
+    width: 50px;
+    height: 50px;
+}
+img.logo {
+    height: 30px;
+}
+img.star {
+    height: 15px;
+    width: 15px;
+}
