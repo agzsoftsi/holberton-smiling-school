@@ -9,6 +9,7 @@ header {
 .logoHeader {
 	width: auto;
 	height: 30px;
+	
 }
 
 * {
@@ -150,3 +151,9 @@ img.circle-thumb-small {
 .bg-sectionfree {
 	background-color: #071629;
 }
+
+/** Task 6 - styles **/
+
+.social > svg {
+    fill: white;
+  }
