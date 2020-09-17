@@ -157,3 +157,11 @@ img.circle-thumb-small {
 .social > svg {
     fill: white;
   }
+
+  /** Task 7 - styles  **/
+  .pricing {
+	background-image: url(images/pic_2.jpg) !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
