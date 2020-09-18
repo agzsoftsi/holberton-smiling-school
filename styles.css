@@ -32,6 +32,11 @@ header {
 	font-size: 12px !important;
 }
 
+header a:hover {
+    text-decoration: none;
+	border-bottom: 1px solid white;
+	color:  #c371ff !important;
+}
 .btn {
 	background-color: #c271ff !important;
 	border-color: #c271ff !important;
@@ -143,7 +148,9 @@ img.circle-thumb-small {
     width: 50px;
     height: 50px;
 }
-
+#search-button {
+    text-decoration: none;
+}
 
 
 /** Task 4 - Styles **/
@@ -179,3 +186,17 @@ img.circle-thumb-small {
 	font-family: 'Coiny' !important;
 	font-weight: 400;
 }
+
+
+/** Task 13 **/
+
+.search-icon {
+    font-family: 'holberton_school-icon';
+    font-size: 15px;
+}
+
+.searchbar {
+    background-color: #d195ff;
+    border-radius: 3px;
+}
+
