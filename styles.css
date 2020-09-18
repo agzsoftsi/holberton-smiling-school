@@ -165,3 +165,17 @@ img.circle-thumb-small {
 	background-size: cover;
 	
 }
+
+/** Task 12 - Styles **/
+.courses {
+	background-image: url(images/pic_3.jpg) !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.tcourse {
+	font-size: 32px;
+	font-family: 'Coiny' !important;
+	font-weight: 400;
+}
